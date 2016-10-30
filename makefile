@@ -7,9 +7,9 @@
 ##==============================================================================
 
 all:
-		@echo "Compiling..."
-		javac *.java
+	@echo "Compiling..."
+	javac *.java
 
 clean:
-		@echo "Cleaning..."
-		find . -name "*.class" -delete
+	@echo "Cleaning..."
+	rm *.class

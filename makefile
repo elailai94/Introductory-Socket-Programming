@@ -10,6 +10,8 @@ all:
 	@echo "Compiling..."
 	javac *.java
 
+.PHONY: clean
+
 clean:
 	@echo "Cleaning..."
-	rm *.class
+	find . -name "*.class" -delete

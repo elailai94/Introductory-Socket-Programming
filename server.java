@@ -17,7 +17,7 @@ import java.net.DatagramPacket;
 import java.net.InetAddress;
 
 public class server {
-	public static void main(String[] args) throws Exception {
+      public static void main(String[] args) throws Exception {
       // Checks the number and formats of the command line arguments passed
       checkCommandLineArguments(args);
 

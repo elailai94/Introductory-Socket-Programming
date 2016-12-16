@@ -27,4 +27,4 @@ make clean
 ```
 
 ### License
-Introductory Socket Programming is licensed under the [MIT license](https://github.com/elailai94/Introductory-Socket-Programming/blob/master/LICENSE.md).
+This repository is licensed under the [MIT license](https://github.com/elailai94/Introductory-Socket-Programming/blob/master/LICENSE.md).

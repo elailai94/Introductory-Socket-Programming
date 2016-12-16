@@ -1,9 +1,8 @@
 //==============================================================================
-// CS456 Assignment 01
+// Introductory Socket Programming
 //
 // @description: An implementation of a client program in Java
-// @author: Ah Hoe Lai
-// @userid: ahlai
+// @author: Elisha Lai
 // @version: 1.0 10/11/2016
 //==============================================================================
 

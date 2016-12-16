@@ -1,9 +1,10 @@
 //==============================================================================
-// Introductory Socket Programming
+// CS456 Assignment 01
 //
 // @description: An implementation of a client program in Java
-// @author: Elisha Lai
-// @version: 1.0 11/10/2016
+// @author: Ah Hoe Lai
+// @userid: ahlai
+// @version: 1.0 10/11/2016
 //==============================================================================
 
 import java.io.DataOutputStream;

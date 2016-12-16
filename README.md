@@ -1,6 +1,6 @@
 # Introductory Socket Programming
 ### About
-Jotto is written entirely in Java and builts on most UNIX-like operating systems (i.e.: Linux or Mac) and Windows. The client program 
+The client and server programs are written entirely in Java and builts on most UNIX-like operating systems (i.e.: Linux or Mac) and Windows. The client sends requests to the server to reverse strings over the network using sockets. uses a two stage communication process. In the negotiation stage, the client and the server negotiate on a random port(<r_port>) for later use through a fixed negotiation port(<n_port>) of the server. Later in the transaction stage, the client connects to the server through the selected random port for actual data transfer.
 
 ### Compilation
 ```Bash

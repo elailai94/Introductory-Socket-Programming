@@ -1,6 +1,6 @@
 # Introductory Socket Programming
 ### About
-The client and server programs are written entirely in Java. The client sends requests to the server to reverse strings over the network using sockets. The client and the server uses a two stage communication process. In the negotiation stage, the client and the server negotiate on a random port(\<r_port\>) for later use through a fixed negotiation port(\<n_port\>) of the server. Later in the transaction stage, the client connects to the server through the selected random port for actual data transfer.
+This repository contains client and server programs to communicate between themselves. They are written entirely in Java. The client sends requests to the server to reverse strings over the network using sockets. The client and the server uses a two stage communication process. In the negotiation stage, the client and the server negotiate on a random port(\<r_port\>) for later use through a fixed negotiation port(\<n_port\>) of the server. Later in the transaction stage, the client connects to the server through the selected random port for actual data transfer.
 
 ### Compilation
 ```Bash
@@ -15,7 +15,7 @@ make clean
 ### Execution
 ```Bash
 ./server.sh <req_code>
-./client.sh
+./client.sh <server_address> <n_port> <req_code> '<msg>'
 ```
 
 ### License

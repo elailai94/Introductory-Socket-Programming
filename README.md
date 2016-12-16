@@ -1,6 +1,6 @@
 # Introductory Socket Programming
 ### About
-Jotto is written entirely in Java and builts on most UNIX-like operating systems (i.e.: Linux or Mac) and Windows. 
+Jotto is written entirely in Java and builts on most UNIX-like operating systems (i.e.: Linux or Mac) and Windows. The client program 
 
 ### Compilation
 ```Bash

@@ -6,6 +6,8 @@ This repository contains client and server programs to communicate between thems
 ### How Does It Work?
 #### Stage 1: Negotiation Using TCP Sockets
 In this stage, the client creates a TCP connection with the server using \<server_address\> as the server address and \<n_port\> as the negotiation port on the server (where the server is listening). The client sends a request to get the random port number from the server where it will send the actual request (i.e., the string to be reversed). To initiate this negotiation, the client sends a request code (\<req_code\>), an integer (e.g., 13), after creating the TCP connection. If the client fails to send the intended \<req_code\>, the server closes the TCP connection. Once the server verifies the \<req_code\>, it replies back with a random port number \<r_port\> where it will be listening for the actual request. After receiving this \<r_port\>, the client closes the TCP connection with the server.
+#### Stage 2: Transaction Using UDP Sockets
+In this stage, the client creates a UDP socket to the server in \<r_port\> and sends the \<msg\> containing a string. On the other side, the server receives the string and sends the reversed string back to the client. Once received, the client prints out the reversed string and exits. Note that the server should continue listening on its \<n_port\> for subsequent client requests. For simplicity, we assume, there will be only one client in the system at a time. So, the server does not need to handle simultaneous client connections.
 
 
 ### Compilation
